@@ -8,17 +8,28 @@ public class HelloController {
    private static String hello() {
         return "John";
     }
+   private static String hello1() {
+       return "James";
+   }
    private static int fetchInt(){
 	   return 1;
    }
-    public static void main1(String[] args) {
+    public static void main(String[] args) {
     	//new object is created
     	//HelloController h1=new HelloController();
     	//assigning a variable "name"to the method "hello"
     	String name =hello();
     	int a=fetchInt();
-    	//printing the string 
+    	HelloController h1=new HelloController();
+    	HelloController h2=new HelloController();
+    	//assigning a variable "name"to the method "hello"
+    	String name1 =hello();
+    	
+    	String name2=h2.hello1();
     	System.out.println(name);
+    	System.out.println(name2);
+    	//printing the string 
+    	
     	System.out.println(a);
     	
     	
