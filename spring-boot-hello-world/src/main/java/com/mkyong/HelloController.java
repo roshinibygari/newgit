@@ -1,5 +1,6 @@
 package com.mkyong;
 
+import java.util.List;
 
 //created a class hellocontroller
 public class HelloController {
@@ -11,11 +12,12 @@ public class HelloController {
    private static String hello1() {
        return "James";
    }
-   private static String returnListOfStrings() {
+   private static List<String> returnListOfStrings() {
 	   return null ;
 	   
    }
-  
+
+   
     public static void main(String[] args) {
     	//new object is created
     	//HelloController h1=new HelloController();
