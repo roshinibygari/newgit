@@ -11,8 +11,8 @@ public class HelloController {
    private static String hello1() {
        return "James";
    }
-   private static void returnListOfStrings() {
-
+   private static String returnListOfStrings() {
+	   return null ;
 	   
    }
   
