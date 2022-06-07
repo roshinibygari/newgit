@@ -20,7 +20,7 @@ public class HelloController {
    
     public static void main(String[] args) {
     	
-    	List<String> myList=new List<String> ();
+    	List<String> myList=new List<String>();
     	
     	
     	//new object is created
