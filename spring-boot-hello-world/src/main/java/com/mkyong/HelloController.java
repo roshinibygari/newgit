@@ -19,15 +19,17 @@ public class HelloController {
    }
    private static List<String> returnEmptyList() {
 	   List<String> emptyList=new ArrayList<String>();
+	  emptyList.add("hello1");
+	  emptyList.add("hello2");
+	  emptyList.add("hello3");
 	   return emptyList;
 	   
    }
 
    
     public static void main(String[] args) {
-    	
-  	
-  
+    
+		
     	
 }
 }
