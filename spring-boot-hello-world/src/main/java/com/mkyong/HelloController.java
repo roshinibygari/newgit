@@ -17,7 +17,7 @@ public class HelloController {
 	   return null ;
 	   
    }
-   private static List<String> returnEmptyList() {
+   private static List<String> addListOfStrings() {
 	   List<String> emptyList=new ArrayList<String>();
 	  emptyList.add("hello1");
 	  emptyList.add("hello2");
@@ -28,8 +28,9 @@ public class HelloController {
 
    
     public static void main(String[] args) {
-    
-		
+    	HelloController h1=new HelloController();
+		h1.addListOfStrings();
+		System.out.println(h1.addListOfStrings());
     	
 }
 }
