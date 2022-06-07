@@ -19,6 +19,10 @@ public class HelloController {
 
    
     public static void main(String[] args) {
+    	
+    	List<String> myList=new List<String> ();
+    	
+    	
     	//new object is created
     	//HelloController h1=new HelloController();
     	//assigning a variable "name"to the method "hello"
@@ -32,7 +36,7 @@ public class HelloController {
     	System.out.println(name2);
     	//printing the string 
     	
-    	
+    	System.out.println(myList);	
     	
     	
 }
