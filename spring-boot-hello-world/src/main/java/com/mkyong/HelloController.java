@@ -1,6 +1,7 @@
 package com.mkyong;
 
 import java.util.ArrayList;
+import java.util.Collection;
 import java.util.List;
 
 //created a class hellocontroller
@@ -19,11 +20,13 @@ public class HelloController {
    }
    private static List<String> addListOfStrings() {
 	   List<String> emptyList=new ArrayList<String>();
+	   List<String> newList=new ArrayList<String>();
 	  emptyList.add("hello1");
 	  emptyList.add("hello2");
 	  emptyList.add("hello3");
 	  emptyList.remove("hello2");
-	   return emptyList;
+	  newList.addAll(emptyList);
+		return newList;
 	   
    }
 
@@ -32,6 +35,6 @@ public class HelloController {
     	
 		
 		System.out.println( " "+ addListOfStrings());
-    	
+			
 }
 }
