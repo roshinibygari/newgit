@@ -22,15 +22,16 @@ public class HelloController {
 	  emptyList.add("hello1");
 	  emptyList.add("hello2");
 	  emptyList.add("hello3");
+	  emptyList.remove("hello2");
 	   return emptyList;
 	   
    }
 
    
     public static void main(String[] args) {
-    	HelloController h1=new HelloController();
-		h1.addListOfStrings();
-		System.out.println(h1.addListOfStrings());
+    	
+		
+		System.out.println( " "+ addListOfStrings());
     	
 }
 }
