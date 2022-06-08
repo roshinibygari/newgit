@@ -18,15 +18,14 @@ public class HelloController {
 	   return null ;
 	   
    }
-   private static List<String> addListOfStrings() {
+   private static List<String> StringList() {
 	   List<String> emptyList=new ArrayList<String>();
-	   List<String> newList=new ArrayList<String>();
+	   
 	  emptyList.add("hello1");
 	  emptyList.add("hello2");
-	  emptyList.add("hello3");
-	  emptyList.remove("hello2");
-	  newList.addAll(emptyList);
-		return newList;
+	 emptyList.add("hello3");
+	  
+		return emptyList;
 	   
    }
 
@@ -34,7 +33,8 @@ public class HelloController {
     public static void main(String[] args) {
     	
 		
-		System.out.println( " "+ addListOfStrings());
+		System.out.println(" " + StringList());
 			
 }
+	
 }
